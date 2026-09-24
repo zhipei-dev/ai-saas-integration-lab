@@ -1,5 +1,3 @@
-[Reading 48 lines from start (total: 48 lines, 0 remaining)]
-
 # AI SaaS Integration Lab
 
 A portfolio MVP for a human-in-the-loop support workflow. It turns synthetic support cases into consistent AI draft replies without allowing AI output or approval to send a real customer message.
@@ -48,5 +46,3 @@ npm run test:e2e
 ## Security, limitations, and status
 
 Inputs and model-shaped output are validated; keys are not logged or stored; client errors are generic. This is a completed educational portfolio MVP, not production-ready. It has no auth, tenancy, rate limiting, migration framework, or production operational controls. See [security and limitations](docs/SECURITY_AND_LIMITATIONS.md).
-
-[executed on device: Jay (49a5df24-e837-49be-8b03-4087d558d803)]
