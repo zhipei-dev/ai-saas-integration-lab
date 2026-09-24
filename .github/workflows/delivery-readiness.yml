@@ -24,3 +24,4 @@ jobs:
           echo "required_failures=${{ steps.readiness.outputs.required_failures }}"
           echo "recommended_failures=${{ steps.readiness.outputs.recommended_failures }}"
           echo "report_path=${{ steps.readiness.outputs.report_path }}"
+          cat "${{ steps.readiness.outputs.report_path }}"
