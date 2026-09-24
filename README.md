@@ -2,6 +2,10 @@
 
 A portfolio MVP for a human-in-the-loop support workflow. It turns synthetic support cases into consistent AI draft replies without allowing AI output or approval to send a real customer message.
 
+## Client fit
+
+Relevant proof for small AI automation / SaaS integration work where the buyer needs structured model output, approval gates, API validation, retries, persistence, auditability, and browser-verified delivery without handing autonomous write authority to the model.
+
 ## Capability proof
 
 - Creates synthetic support cases in local SQLite.
