@@ -46,3 +46,9 @@ npm run test:e2e
 ## Security, limitations, and status
 
 Inputs and model-shaped output are validated; keys are not logged or stored; client errors are generic. This is a completed educational portfolio MVP, not production-ready. It has no auth, tenancy, rate limiting, migration framework, or production operational controls. See [security and limitations](docs/SECURITY_AND_LIMITATIONS.md).
+## Handoff and support
+
+- [Demo deployment and handoff](DEPLOYMENT.md)
+- [Support](SUPPORT.md)
+- [Security and limitations](docs/SECURITY_AND_LIMITATIONS.md)
+
