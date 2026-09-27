@@ -15,6 +15,10 @@ Relevant proof for small AI automation / SaaS integration work where the buyer n
 
 ## Workflow
 
+![AI SaaS support workflow after human approval](docs/assets/ai-saas-workflow.png)
+
+*Real local browser capture from the deterministic Playwright workflow using synthetic data and the offline mock provider.*
+
 `open` → generate suggestion → `awaiting_approval` → human `approved` or `rejected`.
 
 Approved and rejected states are terminal. The service checks workflow state before invoking an AI provider, and the database re-checks state inside the transaction before persisting the suggestion. Approval is only a local database transition; it never sends email, chat, or another external action.
